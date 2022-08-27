@@ -48,7 +48,11 @@ defmodule CdGigalixir.MixProject do
       {:telemetry_poller, "~> 1.0"},
       {:gettext, "~> 0.18"},
       {:jason, "~> 1.2"},
-      {:plug_cowboy, "~> 2.5"}
+      {:plug_cowboy, "~> 2.5"},
+      {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
+      {:excoveralls, "~> 0.14.6", only: :test},
+      {:sobelow, "~> 0.11.1", only: :dev},
+      {:dialyxir, "~> 1.2", only: [:dev, :test], runtime: false},
     ]
   end
 
