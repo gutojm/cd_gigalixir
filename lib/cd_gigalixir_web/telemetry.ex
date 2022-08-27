@@ -1,4 +1,6 @@
 defmodule CdGigalixirWeb.Telemetry do
+  @moduledoc false
+
   use Supervisor
   import Telemetry.Metrics
 
