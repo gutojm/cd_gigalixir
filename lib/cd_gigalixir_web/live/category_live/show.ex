@@ -1,4 +1,6 @@
 defmodule CdGigalixirWeb.CategoryLive.Show do
+  @moduledoc false
+
   use CdGigalixirWeb, :live_view
 
   alias CdGigalixir.Categories

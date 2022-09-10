@@ -1,4 +1,6 @@
 defmodule CdGigalixirWeb.CategoryLive.FormComponent do
+  @moduledoc false
+
   use CdGigalixirWeb, :live_component
 
   alias CdGigalixir.Categories
